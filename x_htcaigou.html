@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/x_htcaigou.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_860401_mnao1zjixso.css">
+    <script src="js/jQuery.js"></script>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <header>
+        <div style="width:1200px;height:100%;margin:0 auto;">
+            <div class="hea_right">
+                <div class="person">
+                    <div style="width:20px;
+                                height:20px;
+                                border-radius:50%;
+                                float: left;
+                                margin-top: 10px;
+                                position: relative;
+                                background-color: #fff;">
+                        <i class="iconfont icon-dengluyonghuming"></i>
+                    </div>
+                    管理员 张三
+                </div>
+                <div class="out">
+                    <div style="width:20px;
+                        height:20px;
+                        border-radius:50%;
+                        float: left;
+                        margin-top: 10px;
+                        position: relative;
+                        background-image:linear-gradient(left,#4eb3fe,#4edffe);
+                        background-image:-webkit-linear-gradient(left,#4eb3fe,#4edffe);
+                        background-image:-moz-linear-gradient(left,#4eb3fe,#4edffe);
+                        background-image:-os-linear-gradient(left,#4eb3fe,#4edffe);
+                        background-image:-o-linear-gradient(left,#4eb3fe,#4edffe);">
+                        <i class="iconfont icon-guanji"></i>
+                    </div>退出
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 名称 -->
+    <div class="title_box">
+        <div style="width:1200px;height:100%;margin:0 auto;">
+            <div class="title">
+                <img src="img/图标.png" alt="">
+            </div>
+            <div class="cgy">
+                <p>采购员</p>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="moudle">
+        <div style="width:1200px;height:100%;margin:0 auto;">
+            <div class="m_name">
+                <div style="width:18px;
+                            height:18px;
+                            border-radius:2px;
+                            float:left;
+                            margin-top:13px;
+                            position: relative;
+                            background-color:#686868;">
+                    <i class="iconfont icon-dengluyonghuming"></i>
+                </div>
+                采购员
+            </div>
+        </div>
+    </div>
+    <!-- 采购员列表 -->
+    <section>
+        <!-- 搜索采购员 -->
+        <div class="search">
+            <div style="width:1200px;height:100%;margin:0 auto;display:flex;align-items:center;">
+                <div class="cgy_id">
+                    <p>采购员ID</p>
+                    <div style="width:150px;
+                                height:35px;
+                                border-radius:18px;
+                                border: 1px solid #656565;
+                                margin-top: 13px;">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="cgy_name">
+                    <p>采购员姓名</p>
+                    <div style="width:150px;
+                                height:35px;
+                                border-radius:18px;
+                                border: 1px solid #656565;
+                                margin-top: 13px;">
+                        <input type="text">
+                    </div>
+                </div>
+                <div style="width:35px;
+                            height:35px;
+                            text-align: center;
+                            border-radius: 50%;
+                            margin:23px 0 0 34px;
+                            float: left;
+                            cursor: pointer;
+                            background-image:linear-gradient(left,#4eb3fe,#4edffe);
+                            background-image:-webkit-linear-gradient(left,#4eb3fe,#4edffe);
+                            background-image:-moz-linear-gradient(left,#4eb3fe,#4edffe);
+                            background-image:-os-linear-gradient(left,#4eb3fe,#4edffe);
+                            background-image:-o-linear-gradient(left,#4eb3fe,#4edffe);">
+                    <i class="iconfont icon-sousuo" style="font-size:18px;line-height:35px;color:#fff;"></i>
+                </div>
+                <div class="sea_right">
+                    <div class="s_add">
+                        添加采购员
+                    </div>
+                    <div class="s_out">
+                        导出数据
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 采购员列表 -->
+        <div class="cgy_table">
+            <div class="tab_title">
+                <div style="width:140px;height:18px;text-align:center;">采购员ID</div>
+                <div style="width:140px;height:18px;text-align:center;margin-left:132px;">采购员姓名</div>
+                <div style="width:140px;height:18px;text-align:center;margin-left:132px;">联系方式</div>
+                <div style="width:140px;height:18px;text-align:center;margin-left:132px;">关联供应商数量</div>
+                <div style="width:140px;height:18px;text-align:center;margin-left:132px;">操作</div>
+            </div>
+            <ul class="tab_list">
+                <li>
+                    <p class="id">ZSAHKU004</p>
+                    <p class="name">张海明</p>
+                    <p class="call">18254780581</p>
+                    <p class="num">13</p>
+                    <p class="controls">
+                        <i class="iconfont icon-sousuo1" style="font-size:22px;color:#4eb3fe;"></i>
+                        <i class="iconfont icon-icon--" style="font-size:22px;color:#ff4c4c;"></i>
+                    </p>
+                </li>
+                <li>
+                    <p class="id">ZSAHKU004</p>
+                    <p class="name">张海明</p>
+                    <p class="call">18254780581</p>
+                    <p class="num">13</p>
+                    <p class="controls">
+                        <i class="iconfont icon-sousuo1" style="font-size:22px;color:#4eb3fe;"></i>
+                        <i class="iconfont icon-icon--" style="font-size:22px;color:#ff4c4c;"></i>
+                    </p>
+                </li>
+                <li>
+                    <p class="id">ZSAHKU004</p>
+                    <p class="name">张海明</p>
+                    <p class="call">18254780581</p>
+                    <p class="num">13</p>
+                    <p class="controls">
+                        <i class="iconfont icon-sousuo1" style="font-size:22px;color:#4eb3fe;"></i>
+                        <i class="iconfont icon-icon--" style="font-size:22px;color:#ff4c4c;"></i>
+                    </p>
+                </li>
+                <li>
+                    <p class="id">ZSAHKU004</p>
+                    <p class="name">张海明</p>
+                    <p class="call">18254780581</p>
+                    <p class="num">13</p>
+                    <p class="controls">
+                        <i class="iconfont icon-sousuo1" style="font-size:22px;color:#4eb3fe;"></i>
+                        <i class="iconfont icon-icon--" style="font-size:22px;color:#ff4c4c;"></i>
+                    </p>
+                </li>
+                <li>
+                    <p class="id">ZSAHKU004</p>
+                    <p class="name">张海明</p>
+                    <p class="call">18254780581</p>
+                    <p class="num">13</p>
+                    <p class="controls">
+                        <i class="iconfont icon-sousuo1" style="font-size:22px;color:#4eb3fe;"></i>
+                        <i class="iconfont icon-icon--" style="font-size:22px;color:#ff4c4c;"></i>
+                    </p>
+                </li>
+                <li>
+                    <p class="id">ZSAHKU004</p>
+                    <p class="name">张海明</p>
+                    <p class="call">18254780581</p>
+                    <p class="num">13</p>
+                    <p class="controls">
+                        <i class="iconfont icon-sousuo1" style="font-size:22px;color:#4eb3fe;"></i>
+                        <i class="iconfont icon-icon--" style="font-size:22px;color:#ff4c4c;"></i>
+                    </p>
+                </li>
+                <li>
+                    <p class="id">ZSAHKU004</p>
+                    <p class="name">张海明</p>
+                    <p class="call">18254780581</p>
+                    <p class="num">13</p>
+                    <p class="controls">
+                        <i class="iconfont icon-sousuo1" style="font-size:22px;color:#4eb3fe;"></i>
+                        <i class="iconfont icon-icon--" style="font-size:22px;color:#ff4c4c;"></i>
+                    </p>
+                </li>
+                <li>
+                    <p class="id">ZSAHKU004</p>
+                    <p class="name">张海明</p>
+                    <p class="call">18254780581</p>
+                    <p class="num">13</p>
+                    <p class="controls">
+                        <i class="iconfont icon-sousuo1" style="font-size:22px;color:#4eb3fe;"></i>
+                        <i class="iconfont icon-icon--" style="font-size:22px;color:#ff4c4c;"></i>
+                    </p>
+                </li>
+                <li>
+                    <p class="id">ZSAHKU004</p>
+                    <p class="name">张海明</p>
+                    <p class="call">18254780581</p>
+                    <p class="num">13</p>
+                    <p class="controls">
+                        <i class="iconfont icon-sousuo1" style="font-size:22px;color:#4eb3fe;"></i>
+                        <i class="iconfont icon-icon--" style="font-size:22px;color:#ff4c4c;"></i>
+                    </p>
+                </li>
+                <li>
+                    <p class="id">ZSAHKU004</p>
+                    <p class="name">张海明</p>
+                    <p class="call">18254780581</p>
+                    <p class="num">13</p>
+                    <p class="controls">
+                        <i class="iconfont icon-sousuo1" style="font-size:22px;color:#4eb3fe;"></i>
+                        <i class="iconfont icon-icon--" style="font-size:22px;color:#ff4c4c;"></i>
+                    </p>
+                </li>
+                <li>
+                    <p class="id">ZSAHKU004</p>
+                    <p class="name">张海明</p>
+                    <p class="call">18254780581</p>
+                    <p class="num">13</p>
+                    <p class="controls">
+                        <i class="iconfont icon-sousuo1" style="font-size:22px;color:#4eb3fe;"></i>
+                        <i class="iconfont icon-icon--" style="font-size:22px;color:#ff4c4c;"></i>
+                    </p>
+                </li>
+                <li>
+                    <p class="id">ZSAHKU004</p>
+                    <p class="name">张海明</p>
+                    <p class="call">18254780581</p>
+                    <p class="num">13</p>
+                    <p class="controls">
+                        <i class="iconfont icon-sousuo1" style="font-size:22px;color:#4eb3fe;"></i>
+                        <i class="iconfont icon-icon--" style="font-size:22px;color:#ff4c4c;"></i>
+                    </p>
+                </li>
+                <div class="page">
+                    <div class="paging">
+                        <div class="pageup">&lt;上一页</div>
+                        <p>1</p>
+                        <p style="margin:0 15px 0 0;border:1px solid #bfbfbf;">2</p>
+                        <div class="pageup">下一页&gt;</div>
+                    </div>
+                    <div class="count">总共&nbsp;<span>12</span>&nbsp;条记录，每页&nbsp;&nbsp;
+                        <div style="width:24px;
+                                    height: 18px;
+                                    border-radius: 2px;
+                                    text-align: center;
+                                    line-height: 18px;
+                                    border: 1px solid #bfbfbf;">10</div>
+                        <div style="width:18px;
+                                    height: 18px;
+                                    border-radius: 2px;
+                                    border: 1px solid #bfbfbf;
+                                    border-left: none;"></div>
+                        &nbsp;&nbsp;条
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <!-- 底部 -->
+    <footer>
+        <div class="copyright">
+            © 2015-2018 dscmall.cn 版权所有 ICP备案证书号:DSC00000123 POWERED
+        </div>
+    </footer>
+    
+    <!-- 添加采购员弹窗 -->
+    <section class="add_cgy">
+        <div class="s_out">
+            添加采购员
+        </div>
+        <div class="esc">
+            <i class="iconfont icon-cuohao" style="font-size:24px;"></i>
+        </div>
+        <h2>采购员ID:zsahu004</h2>
+        <div class="cgy_name">
+            <h3>采购员姓名</h3>
+            <input type="text" placeholder="请输入采购员姓名......">
+        </div>
+        <div class="cgy_call">
+            <h3>联系方式</h3>
+            <input type="text" placeholder="请输入采购员联系方式......">
+        </div>
+        <div class="exit">取消</div>
+        <div class="sure">确认</div>
+    </section>
+    
+    <!-- 删除采购员弹窗 -->
+    <section class="remove_cgy">
+        <div class="esc">
+            <i class="iconfont icon-cuohao" style="font-size:24px;"></i>
+        </div>
+        <h2>确定要删除该采购员信息吗？</h2>
+        <div class="exit">取消</div>
+        <div class="sure">确认</div>
+    </section>
+
+
+    <script src="js/x_htcaigou.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,457 @@
+@import url(base.css);
+/* 顶部 */
+header{
+    width: auto;
+    height: 40px;
+    background-color: #424242;
+}
+header .hea_right{
+    width: 205px;
+    height: 40px;
+    float: right;
+}
+header .hea_right .person{
+    width: 116px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    color: #fff;
+    font-size: 16px;
+    float: left;
+    cursor: pointer;
+}
+header .hea_right .person .icon-dengluyonghuming{
+    font-size: 12px;
+    color: #4eb3fe;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+}
+header .hea_right .out{
+    width: 63px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    color: #fff;
+    font-size: 16px;
+    float: right;
+    cursor: pointer;
+}
+header .hea_right .out .icon-guanji{
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+}
+/* 名称 */
+.title_box{
+    width: auto;
+    height: 100px;
+    background-color: #f4f4f4;
+}
+.title_box .title{
+    width: 271px;
+    height: 100px;
+    float: left;
+}
+.title_box .cgy{
+    width: 145px;
+    height:100px;
+    background-color: #44aeff;
+    margin-left: 377px;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.title_box .cgy div{
+    width: 15px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 65px;
+    left: 65px;
+}
+.moudle{
+    width: auto;
+    height: 43px;
+}
+.moudle .m_name{
+    width: 73px;
+    height: 43px;
+    line-height: 43px;
+    text-align: right;
+    float: left;
+}
+.moudle .m_name .icon-dengluyonghuming{
+    font-size: 14px;
+    color: #fff;    
+    position: absolute;
+    top: -12px;
+    left: 2px;
+}
+/* 采购员列表 */
+    /* 搜索采购员 */
+section{
+    width: auto;
+    height: auto;
+    background-color: #f4f4f4;
+    padding-bottom: 75px;
+}
+.search{
+    width: auto;
+    height: 130px;
+}
+.search .cgy_id{
+    width: 152px;
+    height: 66px;
+    float: left;
+}
+.search input{
+    width: 130px;
+    height: 20px;
+    margin:8px 0 0 8px;
+    background-color: #f4f4f4;
+    outline: none;
+    border: none;
+}
+.search .cgy_id p{
+    height: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #545454;
+}
+.search .cgy_name{
+    width: 152px;
+    height: 66px;
+    margin-left: 32px;
+    float: left;
+}
+.search .cgy_name p{
+    height: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #545454;
+}
+.search .sea_right{
+    width: 257px;
+    height: 35px;
+    float: right;
+    margin: 30px 0 0 540px;
+}
+.search .sea_right .s_add{
+    width: 114px;
+    height: 35px;
+    border-radius: 18px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    background-image:linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-webkit-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-moz-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-os-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-o-linear-gradient(left,#4eb3fe,#4edffe);
+    cursor: pointer;
+}
+.search .sea_right .s_out{
+    width: 114px;
+    height: 35px;
+    border-radius: 18px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    float: right;
+    background-image:linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-webkit-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-moz-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-os-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-o-linear-gradient(left,#4eb3fe,#4edffe);
+    cursor: pointer;
+}
+    /* 采购员列表 */
+.cgy_table{
+    width: 1200px;
+    height: 941px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.cgy_table .tab_title{
+    width: 100%;
+    height: 72px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image:linear-gradient(left,#4edffe,#4eb3fe);
+    background-image:-webkit-linear-gradient(left,#4edffe,#4eb3fe);
+    background-image:-moz-linear-gradient(left,#4edffe,#4eb3fe);
+    background-image:-os-linear-gradient(left,#4edffe,#4eb3fe);
+    background-image:-o-linear-gradient(left,#4edffe,#4eb3fe);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.cgy_table .tab_list{
+    width: 1163px;
+    height:869px;
+    margin: 0 auto;
+}
+.cgy_table .tab_list li{
+    width: 1163px;
+    height: 61px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cgy_table .tab_list li .id,.name,.call,.num,.controls{
+    width:104px;
+    height: 20px;
+    font-size: 16px;
+    color:#7f7f7f;
+    text-align: center;
+}
+.cgy_table .tab_list li .controls{
+    cursor: pointer;
+}
+.cgy_table .tab_list .page{
+    width: 512px;
+    height: 125px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    color: #585858;
+}
+.cgy_table .tab_list .page .paging{
+    width: 214px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    
+}
+.cgy_table .tab_list .page .paging p{
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    border: 1px solid #44dcff;
+    text-align: center;
+    line-height: 18px; 
+    margin: 0 13px 0 15px;
+}
+.cgy_table .tab_list .count{
+    width: 273px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+}
+/* 底部 */
+footer{
+    width: auto;
+    height: 74px;
+    background-color: #424242;
+}
+footer .copyright{
+    width: 640px;
+    height: 74px;
+    margin: 0 auto;
+    color: #8c8c8c;
+    line-height: 74px;
+}
+
+/* 添加采购员弹窗 */
+.add_cgy{
+    width: 666px;
+    height: 380px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 0 3000px #d2d2d2;
+    position: fixed;
+    top: 100px;
+    left:350px;
+    display: none;
+}
+.add_cgy .s_out{
+    width: 370px;
+    height: 57px;
+    font-size: 24px;
+    border-radius: 29px;
+    line-height: 57px;
+    text-align: center;
+    color: #fff;
+    margin: -28px auto;
+    background-image:linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-webkit-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-moz-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-os-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-o-linear-gradient(left,#4eb3fe,#4edffe);
+    cursor: pointer;
+}
+.add_cgy .esc{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #eee;
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    text-align: center;
+    line-height: 52px;
+    color: #0090fa;
+    cursor: pointer;
+}
+.add_cgy h2{
+    width: 244px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 24px;
+    margin: 75px auto;
+    color: #585858;
+}
+.add_cgy .cgy_name{
+    width: 512px;
+    height: 47px;
+    margin: 52px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.add_cgy .cgy_name h3{
+    width: 120px;
+    height: 47px;
+    font-size: 24px;
+    line-height: 47px;
+    color: #585858;
+}
+.add_cgy .cgy_name input{
+    display: block;
+    width: 370px;
+    height: 47px;
+    border-radius: 24px;
+    border: none;
+    background-color: #eee;
+    outline: none;
+    font-size: 22px;
+    text-indent: 1em;
+}
+.add_cgy .cgy_call{
+    width: 512px;
+    height: 47px;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.add_cgy .cgy_call h3{
+    width: 120px;
+    height: 47px;
+    font-size: 24px;
+    line-height: 47px;
+    color: #585858;
+}
+.add_cgy .cgy_call input{
+    display: block;
+    width: 370px;
+    height: 47px;
+    border-radius: 24px;
+    border: none;
+    background-color: #eee;
+    outline: none;
+    font-size: 22px;
+    text-indent: 1em;
+}
+.add_cgy .exit{
+    width: 168px;
+    height: 48px;
+    border-radius: 24px;
+    text-align: center;
+    line-height: 48px;
+    font-size: 22px;
+    margin: 58px 0 0 125px;
+    float: left;
+    color: #fff;
+    background-color: #d4d4d4;
+    cursor: pointer;
+}
+.add_cgy .sure{
+    width: 168px;
+    height: 48px;
+    border-radius: 24px;
+    text-align: center;
+    line-height: 48px;
+    font-size: 22px;
+    margin: 58px 0 0 373px;
+    color: #fff;
+    background-image:linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-webkit-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-moz-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-os-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-o-linear-gradient(left,#4eb3fe,#4edffe);
+    cursor: pointer;
+}
+
+
+/* 添加采购员弹窗 */
+.remove_cgy{
+    width: 666px;
+    height: 380px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 0 3000px #d2d2d2;
+    position: fixed;
+    top: 100px;
+    left:350px;
+    display: none;
+}
+.remove_cgy .esc{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #eee;
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    text-align: center;
+    line-height: 52px;
+    color: #0090fa;
+    cursor: pointer;
+}
+.remove_cgy h2{
+    width: 320px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 24px;
+    margin: 165px auto 0;
+    color: #585858;
+}
+
+.remove_cgy .exit{
+    width: 168px;
+    height: 48px;
+    border-radius: 24px;
+    text-align: center;
+    line-height: 48px;
+    font-size: 22px;
+    margin: 58px 0 0 125px;
+    float: left;
+    color: #fff;
+    background-color: #d4d4d4;
+    cursor: pointer;
+}
+.remove_cgy .sure{
+    width: 168px;
+    height: 48px;
+    border-radius: 24px;
+    text-align: center;
+    line-height: 48px;
+    font-size: 22px;
+    margin: 58px 0 0 373px;
+    color: #fff;
+    background-image:linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-webkit-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-moz-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-os-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-o-linear-gradient(left,#4eb3fe,#4edffe);
+    cursor: pointer;
+}
+

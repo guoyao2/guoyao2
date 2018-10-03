@@ -1,0 +1,318 @@
+@import url(base.css);
+/* 顶部 */
+header{
+    width: auto;
+    height: 40px;
+    background-color: #424242;
+}
+header .hea_right{
+    width: 205px;
+    height: 40px;
+    float: right;
+}
+header .hea_right .person{
+    width: 116px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    color: #fff;
+    font-size: 16px;
+    float: left;
+    cursor: pointer;
+}
+header .hea_right .person .icon-dengluyonghuming{
+    font-size: 12px;
+    color: #4eb3fe;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+}
+header .hea_right .out{
+    width: 63px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    color: #fff;
+    font-size: 16px;
+    float: right;
+    cursor: pointer;
+}
+header .hea_right .out .icon-guanji{
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+}
+/* 名称 */
+.title_box{
+    width: auto;
+    height: 100px;
+    background-color: #f4f4f4;
+}
+.title_box .title{
+    width: 271px;
+    height: 100px;
+    float: left;
+}
+.title_box .cgy{
+    width: 145px;
+    height:100px;
+    background-color: #44aeff;
+    margin-left: 377px;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.title_box .cgy div{
+    width: 15px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 65px;
+    left: 65px;
+}
+.moudle{
+    width: auto;
+    height: 43px;
+}
+.moudle .m_name{
+    width: 73px;
+    height: 43px;
+    line-height: 43px;
+    text-align: right;
+    color: #44aeff;
+    float: left;
+}
+.moudle .m_name .icon-dengluyonghuming{
+    font-size: 14px;
+    color: #fff;    
+    position: absolute;
+    top: -12px;
+    left: 2px;
+}
+.moudle .details{
+    width: 201px;
+    height: 43px;
+    line-height: 43px;
+    float: left;
+    margin-left: 15px;
+    display: flex;
+}
+.moudle .details .icon-dengluyonghuming{
+    font-size: 14px;
+    color: #fff;    
+    position: absolute;
+    top: -12px;
+    left: 2px;
+}
+/* 采购员详情 */
+section{
+    width: auto;
+    height: auto;
+    background-color: #f4f4f4;
+    padding: 40px 0 75px 0;
+}
+    /* 采购员基本信息 */
+.cgy_table{
+    width: 1200px;
+    height: 796px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #fff;
+    overflow: hidden;
+}
+.cgy_table .tab_top{
+    width: 1131px;
+    height: 93px;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cgy_table .tab_top .title{
+    font-weight: bold;
+    color: #44aeff;
+    float: left;
+    margin:56px 0 0 15px;
+}
+.cgy_table .tab_top .s_out{
+    width: 114px;
+    height: 35px;
+    border-radius: 18px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    float: right;
+    margin-top: 31px;
+    background-image:linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-webkit-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-moz-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-os-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-o-linear-gradient(left,#4eb3fe,#4edffe);
+    cursor: pointer;
+}
+.cgy_table .tab_info{
+    width: 1131px;
+    height: 190px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cgy_table .tab_info .id{
+    width: 250px;
+    height: 16px;
+    margin:48px 0 0 16px;
+    display: flex;
+}
+.cgy_table .tab_info .name{
+    width: 250px;
+    height: 16px;
+    margin:40px 0 0 16px;
+    display: flex;
+}
+.cgy_table .tab_info .call{
+    width: 700px;
+    height: 40px;
+    margin:35px 0 0 16px;
+    display: flex;
+}
+.cgy_table .tab_info .call .s_out{
+    width: 114px;
+    height: 35px;
+    border-radius: 18px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    float: right;
+    margin-left: 26px;
+    background-image:linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-webkit-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-moz-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-os-linear-gradient(left,#4eb3fe,#4edffe);
+    background-image:-o-linear-gradient(left,#4eb3fe,#4edffe);
+    cursor: pointer;
+}
+/* 关联供应商 */
+.cgy_table .tab_top1{
+    width: 1131px;
+    height: 93px;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cgy_table .tab_top1 .title{
+    font-weight: bold;
+    color: #44aeff;
+    float: left;
+    margin:56px 0 0 15px;
+}
+.cgy_table .tab_top1 p{
+    font-weight: bold;
+    float: left;
+    color: #585858;
+    float: right;
+    margin-top:65px;
+}
+.cgy_table .busi_man{
+    width: 1116px;
+    height: 291px;
+    margin: 33px auto;
+}
+.cgy_table .busi_man .bs_id{
+    width: 1116px;
+    height: 73px;
+    display: flex;
+}
+.cgy_table .busi_man .bs_id .id{
+    width: 171px;
+    height: 72px;
+    text-align: center;
+    line-height: 72px;
+    color:#fff;
+    border-bottom: 1px solid #fff;
+    background-image:linear-gradient(left,#4edffe,#4eb3fe);
+    background-image:-webkit-linear-gradient(left,#4edffe,#4eb3fe);
+    background-image:-moz-linear-gradient(left,#4edffe,#4eb3fe);
+    background-image:-os-linear-gradient(left,#4edffe,#4eb3fe);
+    background-image:-o-linear-gradient(left,#4edffe,#4eb3fe);
+}
+.cgy_table .busi_man .bs_id .id_c{
+    width: 236px;
+    height: 71px;
+    text-align: center;
+    line-height: 72px;
+    color:#686868;
+    border: 1px solid #e5e5e5;
+    border-left: none; 
+}
+.cgy_table .busi_man .bs_id1{
+    width: 1116px;
+    height: 73px;
+    display: flex;
+}
+.cgy_table .busi_man .bs_id1 .id{
+    width: 171px;
+    height: 72px;
+    text-align: center;
+    line-height: 72px;
+    color:#fff;
+    border-bottom: 1px solid #fff;
+    background-image:linear-gradient(left,#4edffe,#4eb3fe);
+    background-image:-webkit-linear-gradient(left,#4edffe,#4eb3fe);
+    background-image:-moz-linear-gradient(left,#4edffe,#4eb3fe);
+    background-image:-os-linear-gradient(left,#4edffe,#4eb3fe);
+    background-image:-o-linear-gradient(left,#4edffe,#4eb3fe);
+}
+.cgy_table .busi_man .bs_id1 .id_c{
+    width: 236px;
+    height: 72px;
+    text-align: center;
+    line-height: 72px;
+    color:#686868;
+    border: 1px solid #e5e5e5;
+    border-left: none; 
+    border-top: none;
+}
+
+.cgy_table .busi_man .bs_name{
+    width: 1116px;
+    height: 73px;
+    display: flex;
+}
+.cgy_table .busi_man .bs_name .name{
+    width: 171px;
+    height: 72px;
+    text-align: center;
+    line-height: 72px;
+    color:#fff;
+    border-bottom: 1px solid #fff;
+    background-image:linear-gradient(left,#4edffe,#4eb3fe);
+    background-image:-webkit-linear-gradient(left,#4edffe,#4eb3fe);
+    background-image:-moz-linear-gradient(left,#4edffe,#4eb3fe);
+    background-image:-os-linear-gradient(left,#4edffe,#4eb3fe);
+    background-image:-o-linear-gradient(left,#4edffe,#4eb3fe);
+}
+.cgy_table .busi_man .bs_name .name_c{
+    width: 236px;
+    height: 72px;
+    text-align: center;
+    line-height: 72px;
+    color:#686868;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* 底部 */
+footer{
+    width: auto;
+    height: 74px;
+    background-color: #424242;
+}
+footer .copyright{
+    width: 640px;
+    height: 74px;
+    margin: 0 auto;
+    color: #8c8c8c;
+    line-height: 74px;
+}
