@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+header{
+    width: 100%;
+    height: 120px;
+    padding: 0 120px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    background-color: #F4F4F4;
+}
+header .logo{
+    width: 271px;
+    height: auto;
+}
+.top{
+    width: 100%;
+    padding: 0 120px;
+    padding-top: 63px;
+    height: 197px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #E5E5E5;
+}
+.top h2{
+    width: 100%;
+    height: 34px;
+    color: #696969;
+    font-size: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+.top p{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #44AEFF;
+    font-weight: bold;
+    margin-top: 24px;
+}
+.top p span{
+    display: inline-block;
+    width: 8px;
+    height: 4px;
+    background-color: #44AEFF;
+    border-radius: 2px;
+    margin-bottom: 4px;
+}
+main{
+    width: 100%;
+    height: auto;
+    padding: 62px 120px 160px;
+    box-sizing: border-box;
+}
+main .geren{
+    width: 100%;
+    height: auto;
+}
+main .geren .text{
+    width: 100%;
+    height: 53px;
+    padding-left: 42px;
+}
+main .geren .text .line{
+    display: block;
+    width: 6px;
+    height: 28px;
+    background-color: #44AEFF;
+    border-radius: 3px;
+    float: left;
+    margin-top: 15px;
+    margin-left: -27px;
+}
+main .geren .text p{
+    float: left;
+    font-size: 20px;
+    color: #585858;
+    font-weight: bold;
+    height: 53px;
+    width: 100%;
+    line-height: 53px;
+    border-bottom: 1px dashed #D9D9D9;
+}
+main .geren2{
+    width: 100%;
+    height: 37px;
+    padding-left: 42px;
+    margin-top: 40px;
+}
+main .geren2 .left{
+    width: auto;
+    float: left;
+    height: 37px;
+}
+main .geren2 p{
+    float: left;
+    height: 37px;
+    overflow: hidden;
+    line-height: 37px;
+    padding-left: 16px;
+    position: relative;
+    font-weight: bold;
+    color: #585858;
+}
+main .geren2 p i{
+    position: absolute;
+    display: block;
+    height: 15px;
+    top: 14px;
+    line-height: 15px;
+    left: 0;
+    font-style: normal;
+    color: #FF0000;
+}
+main .geren2 input{
+    width: 302px;
+    height: 37px;
+    box-sizing: border-box;
+    border:1px solid #B2B2B2;
+    border-radius: 8px;
+    outline: none;
+    margin-left: 10px;
+}
+main .geren2 .right{
+    width: auto;
+    float: left;
+    margin-left: 100px;
+}
+main .yaopin{
+    width: 100%;
+    height: auto;
+    margin-top: 65px;
+    position: relative;
+    padding-bottom: 90px;
+}
+main .yaopin .text{
+    width: 100%;
+    height: 53px;
+    position: relative;
+    padding-left: 42px;
+}
+main .yaopin .text .line{
+    display: block;
+    width: 6px;
+    height: 28px;
+    background-color: #44AEFF;
+    border-radius: 3px;
+    float: left;
+    margin-top: 15px;
+    margin-left: -27px;
+}
+main .yaopin .text p{
+    float: left;
+    font-size: 20px;
+    color: #585858;
+    font-weight: bold;
+    height: 53px;
+    width: 100%;
+    line-height: 53px;
+    border-bottom: 1px dashed #D9D9D9;
+}
+main .yaopin .text button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 106px;
+    height: 32px;
+    border-radius: 16px;
+    outline: none;
+    border:0;
+    color: #fff;
+    margin-top: 10px;
+    background-image: -webkit-linear-gradient(left,#44AFFF,#44DEFF);
+}
+main .yaopin .yp1{
+    width: 100%;
+    height: auto;
+    padding-left: 41px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 44px;
+}
+main .yaopin .yp1 .left{
+    width: 157px;
+    height: auto;
+    float: left;
+    margin-top: 5px;
+}
+main .yaopin .yp1 .left p{
+    font-size: 19px;
+    color: #585858;
+    font-weight: bold;
+    float: left;
+}
+main .yaopin .yp1 .left img{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+main .yaopin .yp1 .right{
+    height: auto;
+    float: left;
+}
+main .yaopin .yp1 .right .r_box{
+    margin-bottom: 34px;
+    position: relative;
+}
+main .yaopin .yp1 .right .r_box p{
+    float: left;
+    height: 37px;
+    font-size: 20px;
+    overflow: hidden;
+    line-height: 37px;
+    padding-left: 16px;
+    position: relative;
+    font-weight: bold;
+    color: #585858;
+}
+main .yaopin .yp1 .right .r_box p i{
+    position: absolute;
+    display: block;
+    height: 15px;
+    top: 14px;
+    line-height: 15px;
+    left: 0;
+    font-style: normal;
+    color: #FF0000;
+}
+main .yaopin .yp1 .right .r_box input{
+    width: 534px;
+    height: 37px;
+    box-sizing: border-box;
+    border:1px solid #B2B2B2;
+    border-radius: 8px;
+    outline: none;
+    margin-left: 10px;
+    text-indent: 1rem;
+}
+main .yaopin .yp1 .right .r_box .del{
+    width: 23px;
+    height: 32px;
+    position: absolute;
+    right: -50px;
+    top: 0;
+}
+main .yaopin .yp1 .right .r_box textarea{
+    margin-left: 10px;
+    width: 534px;
+    height: 144px;
+    border-radius: 8px;
+    resize:vertical;
+}
+main .yaopin .yp2{
+    height: 37px;
+    overflow: hidden;
+}
+main .yaopin .line2{
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #D9D9D9;
+    position: absolute;
+    bottom: 0;
+    right: -42px;
+}
+main .btn{
+    width: 100%;
+    padding-top: 89px;
+}
+main .btn button{
+    display: block;
+    width: 168px;
+    height: 48px;
+    border-radius: 24px;
+    float: left;
+    outline: 0;
+    border: 0;
+    font-size: 20px;
+    line-height: 48px;
+    text-align: center;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+main .btn .btn1{
+    margin-left: 360px;
+    color: #fff;
+    background-image: -webkit-linear-gradient(left,#44AEFF,#44DEFF);
+}
+main .btn .btn2{
+    margin-left: 80px;
+    color: #44B8FF;
+    border: 1px solid #0592FA;
+    background-color: #fff;
+}
+footer{
+    width: 100%;
+    height: 74px;
+    background-color: #424242;
+    font-size: 17px;
+    color: #8C8C8C;
+    text-align: center;
+    line-height: 74px;
+}

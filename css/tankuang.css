@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background-color: #ccc;
+}
+.tankuang{
+    width: 666px;
+    height: 423px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 8px;
+}
+.tankuang .close{
+    display: block;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #EEEEEE;
+    color: #0090FA;
+    line-height: 52px;
+    text-align: center;
+    font-size: 28px;
+    position: absolute;
+    top:24px;
+    right:24px;
+}
+.tankuang .text{
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #585858;
+    position: absolute;
+    top: 165px;
+    left:0;
+}
+.tankuang .anniu{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top:285px;
+    left: 0;
+}
+.tankuang .anniu button{
+    display: block;
+    float: left;
+    width: 168px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    outline: 0;
+    border:0;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.tankuang .anniu .but1{
+    margin-left: 120px;
+    background-image: -webkit-linear-gradient(left,#44AEFF,#44DEFF);
+    color: #FFF;
+}
+.tankuang .anniu .but2{
+    margin-left: 90px;
+    color: #44B6FF;
+    border:1px solid #0090FA;
+    background-color: #fff;
+}

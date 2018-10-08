@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+header{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: #424242;
+    padding: 0 120px;
+}
+header .name{
+    width: 120px;
+    height: 100%;
+    float: right;
+    color: #fff;
+}
+header .name .cg{
+    width: 74px;
+    height: 100%;
+    line-height: 40px;
+    overflow: hidden;
+    float: left;
+}
+header .name .cg img{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    float: left;
+}
+header .name .cg span{
+    display: block;
+    width: auto;
+    height: 100%;
+    line-height: 40px;
+    float: left;
+    font-size: 16px;
+    margin-left: 6px;
+}
+header .name .name1{
+    display: block;
+    float: right;
+    line-height: 40px;
+}
+header .tuichu{
+    width: 63px;
+    height: 100%;
+    float: right;
+    margin-left: 25px;
+}
+header .tuichu img{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    float: left;
+}
+header .tuichu span{
+    display: block;
+    width: auto;
+    height: 100%;
+    line-height: 40px;
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 11px;
+}
+.dh{
+    width: 100%;
+    height: auto;
+    background-color: #F4F4F4;
+}
+.dh .daohang{
+    width: 100%;
+    height: 94px;
+    padding: 0 120px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.dh .daohang .logo{
+    width: 270px;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+}
+.dh .daohang .logo img{
+    width: 270px;
+    height: auto;
+}
+.dh .daohang ul{
+    width: 725px;
+    height: 100%;
+    margin-left: 105px;
+    float: left;
+}
+.dh .daohang ul li{
+    width: 145px;
+    height: 100%;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    line-height: 94px;
+    color: #545454;
+    font-weight: bold;
+    position: relative;
+}
+.dh .daohang ul li.active{
+    background-color: #44AEFF;
+    color: #fff;
+}
+.dh .daohang ul li .line{
+    position: absolute;
+    display: block;
+    width: 21px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 2px;
+    top: 74px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.dh .show{
+    width: 100%;
+    height: 52px;
+    background-color: #fff;
+    padding: 0 120px;
+    box-sizing: border-box;
+}
+.dh .show p{
+    width: 95px;
+    height: 100%;
+}
+.dh .show p img{
+    float: left;
+    width: 20px;
+    height: 14px;
+    margin-top: 18px;
+}
+.dh .show p span{
+    display: block;
+    float: left;
+    width: 64px;
+    height: 100%;
+    font-size: 16px;
+    line-height: 52px;
+    text-align: center;
+    color: #686868;
+    margin-left: 11px;
+}
+main{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #F4F4F4;
+    padding: 29px 120px 75px;
+}
+main .top{
+    width: 100%;
+    height: 68px;
+}
+main .top .sou1{
+    width: 152px;
+    height: 100%;
+    float: left;
+}
+main .top .sou1 p{
+    width: auto;
+    height: 17px;
+    line-height: 17px;
+    color: #545454;
+    font-weight: bold;
+}
+main .top .sou1 input{
+    display: block;
+    width: 152px;
+    height: 35px;
+    border-radius: 17px;
+    outline: 0;
+    border:1px solid #656565;
+    margin-top: 14px;
+    box-sizing: border-box;
+    text-indent: 1em;
+}
+main .top .sou2{
+    margin-left:30px;
+}
+main .top .img{
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-left: 37px;
+    margin-top: 30px;
+}
+main .top button{
+    display: block;
+    width: 114px;
+    height: 35px;
+    float: right;
+    outline: 0;
+    border:0;
+    border-radius: 17px;
+    background-image: -webkit-linear-gradient(left,#44AEFF,#44DEFF);
+    font-size: 16px;
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 30px;
+}
+main .boz{
+    width: 100%;
+    height: auto;
+    margin-top: 34px;
+}
+main .boz .bozTop{
+    width: 100%;
+    height: 72px;
+    background-image: -webkit-linear-gradient(left,#44DCFF,#44AEFF);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+main .boz .bozTop div{
+    width: 165px;
+    line-height: 72px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+main .boz .bozTop div.div1{
+    line-height: 24px;
+    padding-top: 15px;
+}
+main .boz .bozBox{
+    width: 100%;
+    height: auto;
+    padding: 0 25px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+main .boz .bozBox li{
+    width: 100%;
+    height: 68px;
+    border-bottom: 1px solid #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+}
+main .boz .bozBox li div{
+    width: 120px;
+    line-height: 72px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #7F7F7F;
+}
+main .boz .bozBox li .naniu button{
+    display: inline-block;
+    width: 92px;
+    height: 32px;
+    border-radius: 16px;
+    text-align: center;
+    outline: 0;
+    border:0;
+    background-image: -webkit-linear-gradient(left,#44AFFF,#44DEFF);
+    font-size: 16px;
+    color: #fff;
+}
+main .yeshu{
+    width: 100%;
+    height: 137px;
+    background-color: #fff;
+    overflow: hidden;
+    color: #585858;
+}
+main .yeshu .ys_box{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+main .yeshu .ys_box .zj{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+main .yeshu .ys_box i{
+    display: block;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    font-style: normal;
+    border:1px solid #BFBFBF;
+    border-radius: 1px;
+    margin-left: 15px;
+}
+main .yeshu .ys_box i.y1{
+    border-color: #44DCFF;
+}
+main .yeshu .ys_box .next{
+    margin-left: 15px;
+    margin-right: 25px;
+}
+main .yeshu .ys_box .zj .shuzi{
+    margin:0 5px;
+}
+main .yeshu .ys_box .zj p span{
+    display: block;
+    float: left;
+    border:1px solid #C5C5C5;
+}
+main .yeshu .ys_box .zj p span:nth-child(1){
+    border-right: 0;
+    margin-left: 13px;
+    width: 24px;
+}
+main .yeshu .ys_box .zj p span:nth-child(2){
+    margin-right: 17px;
+    width: 18px;
+}
+footer{
+    width: 100%;
+    height: 74px;
+    background-color: #424242;
+    font-size: 17px;
+    color: #8C8C8C;
+    text-align: center;
+    line-height: 74px;
+}
+
+
