@@ -1,0 +1,230 @@
+@import url("base.css");
+/*头部状态栏*/
+.head{
+    width:auto;
+    height: 0.4rem;
+}
+/*头部*/
+header{
+    width:auto;
+    height: 0.8rem;
+    text-align: center;
+    font-size: 0.36rem;
+    line-height: 0.8rem;
+    letter-spacing: 0.04rem;
+    position: relative;
+}
+header .back{
+    width:0.42rem;
+    height: 0.42rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 0.42rem;
+    margin-left: 0.14rem;
+}
+header .back i{
+    font-size: 0.36rem;
+}
+header .more{
+    width:1.74rem;
+    height: 0.64rem;
+    border:1px solid #ebebeb;
+    border-radius: 0.62rem;
+    display: flex;
+    line-height: 0.64rem;
+    font-weight: 100;
+    color:#cacaca;
+    justify-content: space-around;
+    position: absolute;
+    right:0.14rem;
+    top:0.08rem;
+}
+header .more_left{
+    width:0.37rem;
+    height: 0.13rem;
+    margin-top: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+header .more_left .circle{
+    width:0.08rem;
+    height: 0.08rem;
+    background: #000;
+    border-radius: 50%;
+}
+header .more_right{
+    width:0.27rem;
+    height: 0.27rem;
+    border:0.04rem solid #000000;
+    margin-top: 0.13rem;
+    border-radius: 50%;
+}
+header .more_right .point{
+    width:0.13rem;
+    height: 0.13rem;
+    background: #000;
+    border-radius: 50%;
+    margin:0.07rem;
+}
+/**/
+.title{
+    width:auto;
+    height: 1.08rem;
+    line-height: 1.08rem;
+    font-size: 0.26rem;
+    color:#666666;
+    padding-left: 0.55rem;
+    position: relative;
+    margin-top: 0.2rem;
+}
+.title .img_box{
+    width:0.27rem;
+    height: 0.27rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin-top: auto;
+    margin-bottom: auto;
+    left:0.18rem;
+}
+/**/
+.show{
+    width:auto;
+    height: 2.71rem;
+}
+.show .show_left{
+    width:3.34rem;
+    height: 2.71rem;
+    float: left;
+    position: relative;
+}
+.show .show_left .img_box{
+    width:2.44rem;
+    height: 1.94rem;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin: auto;
+}
+.show .show_right{
+    float: left;
+    height:2.71rem;
+    padding-left: 0.22rem;
+    padding-top: 0.24rem;
+}
+.show .show_right p{
+    line-height: 0.25rem;
+    font-size: 0.24rem;
+    color:#666;
+    margin-bottom: 0.31rem;
+}
+.show .show_right p span{
+    color:#333;
+}
+.show .show_right h4{
+    line-height: 0.25rem;
+    font-size: 0.24rem;
+    color:#666;
+    font-weight: 400;
+    margin-bottom: 0.6rem;
+}
+.show .show_right h4 span{
+    color:#333;
+}
+.show .show_right .xiangqing{
+    width:1.79rem;
+    height: 0.58rem;
+    border: 0.01rem solid #44afff;
+    text-align: center;
+    line-height: 0.58rem;
+    font-size: 0.24rem;
+    border-radius: 0.29rem;
+    color:#44afff;
+    cursor: pointer;
+}
+/**/
+.bottom_con{
+    width:7.5rem;
+    height: 7.9rem;
+    background: #f3f3f3;
+    overflow: hidden;
+}
+.bottom_con .date{
+    width:auto;
+    height: 0.88rem;
+    background: #fff;
+    margin:0.2rem 0;
+    line-height: 0.88rem;
+    font-size: 0.26rem;
+    position: relative;
+}
+.bottom_con .date .afters{
+    width:0.56rem;
+    height: 0.02rem;
+    background: #666;
+    position: absolute;
+    top:0.43rem;
+    right:2.6rem;
+}
+.bottom_con .date .text{
+    margin-left: 0.78rem;
+}
+.bottom_con .date .date1{
+    margin-left: 0.42rem;
+    color:#999;
+}
+.bottom_con .date .date2{
+    margin-left: 1.29rem;
+    color:#999;
+}
+.bottom_con .date .img_icon{
+    width:0.36rem;
+    height: 0.33rem;
+    position: absolute;
+    top:0.28rem;
+    left:0.28rem;
+}
+.bottom_con .data{
+    width:auto;
+    height: 2.66rem;
+    background: #ffffff;
+}
+.bottom_con .data h2{
+    padding-left: 0.2rem;
+    font-size: 0.28rem;
+    line-height: 0.92rem;
+    font-weight: 500;
+}
+.bottom_con .data ul{
+    width:auto;
+    height: 1.74rem;
+    display: flex;
+    justify-content: space-around;
+}
+.bottom_con .data ul li{
+    height: 1.74rem;
+    text-align: center;
+}
+.bottom_con .data ul li p{
+    line-height: 0.33rem;
+    color:#666;
+    font-size: 0.2rem;
+    margin-bottom: 0.06rem;
+}
+.bottom_con .data ul li .imgs{
+    width:0.57rem;
+    height: 0.58rem;
+    margin:0 auto 0.14rem;
+}
+.bottom_con .data ul li .number{
+    color:#1fafff;
+    line-height: 0.22rem;
+}
+
+
+

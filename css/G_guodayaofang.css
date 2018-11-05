@@ -1,0 +1,134 @@
+@import url("base.css");
+/*头部状态栏*/
+.head{
+    width:auto;
+    height: 0.4rem;
+}
+/*头部*/
+header{
+    width:auto;
+    height: 0.8rem;
+    text-align: center;
+    font-size: 0.36rem;
+    line-height: 0.8rem;
+    letter-spacing: 0.04rem;
+    position: relative;
+}
+header .back{
+    width:0.42rem;
+    height: 0.42rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 0.42rem;
+    margin-left: 0.14rem;
+}
+header .back i{
+    font-size: 0.36rem;
+}
+header .more{
+    width:1.74rem;
+    height: 0.64rem;
+    border:1px solid #ebebeb;
+    border-radius: 0.62rem;
+    display: flex;
+    line-height: 0.64rem;
+    font-weight: 100;
+    color:#cacaca;
+    justify-content: space-around;
+    position: absolute;
+    right:0.14rem;
+    top:0.08rem;
+}
+header .more_left{
+    width:0.37rem;
+    height: 0.13rem;
+    margin-top: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+header .more_left .circle{
+    width:0.08rem;
+    height: 0.08rem;
+    background: #000;
+    border-radius: 50%;
+}
+header .more_right{
+    width:0.27rem;
+    height: 0.27rem;
+    border:0.04rem solid #000000;
+    margin-top: 0.13rem;
+    border-radius: 50%;
+}
+header .more_right .point{
+    width:0.13rem;
+    height: 0.13rem;
+    background: #000;
+    border-radius: 50%;
+    margin:0.07rem;
+}
+/**/
+.title{
+    width:auto;
+    height: 1.08rem;
+    line-height: 1.08rem;
+    font-size: 0.26rem;
+    color:#666666;
+    padding-left: 0.55rem;
+    position: relative;
+    border-top:0.2rem solid #f3f3f3;
+}
+.title .img_box{
+    width:0.27rem;
+    height: 0.27rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin-top: auto;
+    margin-bottom: auto;
+    left:0.18rem;
+}
+/*logo*/
+.logo{
+    width:auto;
+    height: 2.93rem;
+    background-image: url("../img/G_ganmaoling.png");
+    background-repeat: no-repeat;
+    background-size: 2.27rem 1.81rem;
+    background-position: center;
+    margin-bottom: 0.3rem;
+}
+/**/
+.content{
+    width:auto;
+    height: 7.6rem;
+    background: #f3f3f3;
+    overflow: hidden;
+}
+.content li{
+    width:auto;
+    height: 0.9rem;
+    background: #fff;
+    margin-top: 0.18rem;
+    text-align: center;
+    font-size: 0.36rem;
+    font-weight: 100;
+    line-height: 0.9rem;
+    color:#c2c2c2;
+}
+.content li .left{
+    display: block;
+    font-size: 0.26rem;
+    float: left;
+    margin-left: 0.3rem;
+    color:#666666;
+}
+.content li .right{
+    display: block;
+    font-size: 0.26rem;
+    float: right;
+    margin-right: 0.8rem;
+    color:#666;
+}

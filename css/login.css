@@ -1,0 +1,213 @@
+@import url("base.css");
+/*头部状态栏*/
+.head{
+    width:auto;
+    height: 0.4rem;
+}
+/*头部*/
+header{
+    width:auto;
+    height: 0.8rem;
+    text-align: center;
+    font-size: 0.36rem;
+    line-height: 0.8rem;
+    letter-spacing: 0.04rem;
+    position: relative;
+}
+header .more{
+    width:1.74rem;
+    height: 0.64rem;
+    border:1px solid #ebebeb;
+    border-radius: 0.62rem;
+    display: flex;
+    line-height: 0.64rem;
+    font-weight: 100;
+    color:#cacaca;
+    justify-content: space-around;
+    position: absolute;
+    right:0.14rem;
+    top:0.08rem;
+}
+header .more_left{
+    width:0.37rem;
+    height: 0.13rem;
+    margin-top: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+header .more_left .circle{
+    width:0.08rem;
+    height: 0.08rem;
+    background: #000;
+    border-radius: 50%;
+}
+header .more_right{
+    width:0.27rem;
+    height: 0.27rem;
+    border:0.04rem solid #000000;
+    margin-top: 0.13rem;
+    border-radius: 50%;
+}
+header .more_right .point{
+    width:0.13rem;
+    height: 0.13rem;
+    background: #000;
+    border-radius: 50%;
+    margin:0.07rem;
+}
+/*logo*/
+.logo{
+    width:auto;
+    height: 2.93rem;
+    background-image: url("../img/G_logo.png");
+    background-repeat: no-repeat;
+    background-size: 1.6rem 1.37rem;
+    background-position: center;
+}
+/*login*/
+.login{
+    width:auto;
+    overflow: hidden;
+}
+.login .account{
+    width:5.8rem;
+    height: 0.9rem;
+    margin: 0.25rem auto 0;
+    border-bottom: 0.01rem solid #ccc;
+    position: relative;
+}
+.login .account i{
+    width:0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin-top:auto;
+    margin-bottom: auto;
+    left:0.08rem;
+    font-size: 0.36rem;
+    line-height: 0.4rem;
+}
+.login .account input{
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin-top:auto;
+    margin-bottom: auto;
+    left: 0.67rem;
+    outline: none;
+    font-size: 0.26rem;
+    width:4.5rem;
+    height: 0.9rem;
+    border: none;
+    letter-spacing: 0.03rem;
+}
+.login .denglu{
+    width:5.8rem;
+    height: 0.9rem;
+    background: -webkit-linear-gradient(left,#989898,#b3b3b3);
+    margin:0.66rem auto 0.6rem;
+    border-radius: 0.45rem;
+    text-align: center;
+    line-height: 0.9rem;
+    font-size: 0.34rem;
+    color:#fff;
+    box-shadow: 0.05rem 0.1rem 0.3rem 0.03rem #b3b3b3;
+}
+.login a{
+    display: block;
+    font-size: 0.26rem;
+    text-align: center;
+    color:#2f98cf;
+    letter-spacing: 0.01rem;
+}
+footer{
+    width:auto;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 0.22rem;
+    margin-top: 2.65rem;
+    color:#999;
+    letter-spacing: 0.02rem;
+}
+/*遮罩*/
+.zhezhao{
+    width:100%;
+    height: 13.34rem;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+}
+.zhezhao .lianjie{
+    width:5.8rem;
+    height: 4.1rem;
+    background: #ffffff;
+    border-radius: 0.2rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.zhezhao .lianjie p{
+    font-size: 0.3rem;
+    line-height: 1.8;
+    text-align: center;
+    margin-top: 0.67rem;
+}
+.zhezhao .lianjie p a{
+    color:#2f98cf;
+}
+.zhezhao .lianjie .button{
+    width:5.2rem;
+    height: 0.9rem;
+    background: -webkit-linear-gradient(left,#44afff,#44deff);
+    margin:0.4rem auto;
+    border-radius: 0.45rem;
+    text-align: center;
+    line-height: 0.9rem;
+    font-size: 0.3rem;
+    color:#fff;
+    /*box-shadow: 0.1rem 0.1rem 0.5rem 0.03rem #44afff;*/
+}
+.zhezhao .flag{
+    width:0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    border: 0.03rem solid #fff;
+    font-size: 0.5rem;
+    text-align: center;
+    line-height: 0.52rem;
+    color:#fff;
+    position: absolute;
+    left:0;
+    right:0;
+    margin: auto;
+    bottom:3.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

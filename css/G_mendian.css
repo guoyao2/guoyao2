@@ -1,0 +1,203 @@
+@import url("base.css");
+/*头部状态栏*/
+.head{
+    width:auto;
+    height: 0.4rem;
+}
+/*头部*/
+header{
+    width:auto;
+    height: 0.8rem;
+    text-align: center;
+    font-size: 0.36rem;
+    line-height: 0.8rem;
+    letter-spacing: 0.04rem;
+    position: relative;
+}
+header .back{
+    width:0.42rem;
+    height: 0.42rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 0.42rem;
+    margin-left: 0.14rem;
+}
+header .back i{
+    font-size: 0.36rem;
+}
+header .more{
+    width:1.74rem;
+    height: 0.64rem;
+    border:1px solid #ebebeb;
+    border-radius: 0.62rem;
+    display: flex;
+    line-height: 0.64rem;
+    font-weight: 100;
+    color:#cacaca;
+    justify-content: space-around;
+    position: absolute;
+    right:0.14rem;
+    top:0.08rem;
+}
+header .more_left{
+    width:0.37rem;
+    height: 0.13rem;
+    margin-top: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+header .more_left .circle{
+    width:0.08rem;
+    height: 0.08rem;
+    background: #000;
+    border-radius: 50%;
+}
+header .more_right{
+    width:0.27rem;
+    height: 0.27rem;
+    border:0.04rem solid #000000;
+    margin-top: 0.13rem;
+    border-radius: 50%;
+}
+header .more_right .point{
+    width:0.13rem;
+    height: 0.13rem;
+    background: #000;
+    border-radius: 50%;
+    margin:0.07rem;
+}
+/**/
+.xxka{
+    width:auto;
+    height: 0.8rem;
+}
+.xxka ul{
+    padding-left: 0.18rem;
+    padding-right: 0.18rem;
+    display: flex;
+    justify-content: space-between;
+}
+.xxka li{
+    width:0.9rem;
+    height: 0.76rem;
+    font-size:0.26rem;
+    line-height: 0.76rem;
+    text-align: center;
+}
+.hot{
+    color:#66baff;
+    border-bottom: 0.04rem solid #44afff;
+}
+/**/
+.title{
+    width:auto;
+    height: 1.08rem;
+    line-height: 1.08rem;
+    font-size: 0.26rem;
+    color:#666666;
+    padding-left: 0.55rem;
+    position: relative;
+    border-top:0.2rem solid #f3f3f3;
+}
+.title .img_box{
+    width:0.27rem;
+    height: 0.27rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin-top: auto;
+    margin-bottom: auto;
+    left:0.18rem;
+}
+.title:after{
+    content: "";
+    display: block;
+    width:7.14rem;
+    height: 0.01rem;
+    background: #f3f3f3;
+    position: absolute;
+    bottom:0.01rem;
+    left:0.18rem;
+}
+/**/
+.content{
+    background: #fff;
+    width:auto;
+    position: absolute;
+}
+.content .list_box{
+    height: 9.5rem;
+    background: #fff;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.content li{
+    width:7.14rem;
+    height: 2.2rem;
+    overflow: hidden;
+    margin-left: 0.18rem;
+    margin-top: 0.2rem;
+    position: relative;
+    box-shadow: 0.02rem 0.02rem 0.1rem 0.03rem rgba(55,55,55,0.1);
+}
+.content li .list_right .after{
+    width:0.02rem;
+    height: 1.4rem;
+    background: #f3f3f3;
+    position: absolute;
+    top:0.39rem;
+    left:1.73rem;
+}
+.content li .list_left{
+    width:0.9rem;
+    height: 0.76rem;
+    margin-top: 0.6rem;
+    margin-left: 0.43rem;
+    float: left;
+}
+.content li .list_right{
+    float: left;
+    margin-left: 0.82rem;
+    padding-top: 0.31rem;
+
+}
+.content li .list_right .texts{
+    height: 0.26rem;
+    line-height: 0.26rem;
+    font-size: 0.26rem;
+    text-align: left;
+    margin-bottom: 0.18rem;
+}
+.content li .list_right .local{
+    height: 0.26rem;
+    line-height: 0.26rem;
+    font-size: 0.24rem;
+    padding-left: 0.31rem;
+    color:#999999;
+    margin-bottom: 0.35rem;
+}
+.content li .list_right .number{
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+    color:#666666;
+    margin-bottom:0.2rem;
+}
+.content li .list_right .number span{
+    color:#44afff;
+}
+.content li .list_right .date{
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+    color:#666666;
+}
+
+
+
+
+
+
+
