@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    outline: none;
+    font-family: "苹方 常规";
+    font-size: 0.22rem;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #F3F3F3;
+}
+
+/*头部*/
+header{
+    width: 100%;
+    height: 0.96rem;
+    padding-top: 0.32rem;
+    overflow: hidden;
+    font-size: 0.38rem;
+    color: black;
+    text-align: center;
+    line-height: 0.96rem;
+    position: relative;
+    margin-bottom: 0.2rem;
+    background: white;
+}
+header .right{
+    width: 1.72rem;
+    height: 0.62rem;
+    float: right;
+    border: 0.01rem solid #E8E8E8;
+    border-radius: 0.5rem;
+    position: absolute;
+    top:0.49rem;
+    right:0.15rem;
+    line-height: 0.62rem;
+}
+header .right .iconfont{
+    font-size: 0.38rem;
+}
+header .right span{
+    display: inline-block;
+    margin: 0  0.1rem;
+}
+header .icon-back{
+    font-size: .50rem;
+    line-height: .96rem;
+    color: #000;
+    float: left;
+    font-weight: bold;
+    margin-left: .1rem;
+}
+section{
+    width: 100%;
+    height: 3.64rem;
+    background: white;
+    margin-top: .32rem;
+}
+section ul{
+    width: 100%;
+    height: 100%;
+    padding-left: .24rem;
+    box-sizing: border-box;
+}
+section ul li{
+    width: 100%;
+    height: .9rem;
+    border-bottom: .02rem solid #F3F3F3;
+    box-sizing: border-box;
+    font-size: .2rem;
+    color: #000;
+    line-height: .9rem;
+    padding-left: .05rem;
+}
+section ul li span{
+    color: #999;
+    margin-left: .66rem;
+}
+section ul li:last-child{
+    border-bottom: none;
+}
+.tittle{
+    width: 100%;
+    height: .78rem;
+    background: #F3F3F3;
+    font-size: .3rem;
+    color: #000;
+    line-height: .78rem;
+    padding-left: .29rem;
+    box-sizing: border-box;
+}
+input{
+    width: 100%;
+    height: 2.29rem;
+    background: white;
+    outline: none;
+    border: none;
+    padding-left: .29rem;
+    box-sizing: border-box;
+}
+input::-webkit-input-placeholder{
+    color: #999;
+    font-size: .28rem;
+}
+.add{
+    color: #999;
+}
+button{
+    width: 100%;
+    height: .89rem;
+    font-size: .3rem;
+    border: none;
+    color: white;
+    background-image: -webkit-linear-gradient(left,#44aeff,#44deff);
+    margin-top: .28rem;
+}
+.alert{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.alert main{
+    width: 5.76rem;
+    height: 4.1rem;
+    background: #ffffff;
+    border-radius: .15rem;
+    margin:4.3rem auto 0;
+    overflow: hidden;
+}
+.alert main img{
+    margin: .65rem auto .38rem;
+    display: block;
+}
+.alert main h1{
+    width: 100%;
+    height: .38rem;
+    font-size: .38rem;
+    color: #000;
+    line-height: .38rem;
+    text-align: center;
+    font-weight: normal;
+}
+.alert main h2{
+    font-size: .3rem;
+    width: 3.6rem;
+    height: .7rem;
+    line-height: .35rem;
+    color: #999;
+    margin: .26rem auto 0;
+    font-weight: normal;
+}
+.alert .del{
+    width: .68rem;
+    height: .68rem;
+    border: .03rem solid #fff;
+    font-size: .32rem;
+    color: #fff;
+    text-align: center;
+    line-height: .68rem;
+    margin: .55rem auto;
+    border-radius: 50%;
+}

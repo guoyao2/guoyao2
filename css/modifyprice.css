@@ -1,0 +1,141 @@
+body{
+    width: 7.5rem;
+    height: 13.34rem;
+    position: relative;
+}
+/*头部*/
+header{
+    width: 100%;
+    height: 0.96rem;
+    padding-top: 0.32rem;
+    overflow: hidden;
+    font-size: 0.38rem;
+    color: black;
+    text-align: center;
+    line-height: 0.96rem;
+    position: relative;
+    /*margin-bottom: 0.2rem;*/
+    background: white;
+}
+header .right{
+    width: 1.72rem;
+    height: 0.62rem;
+    float: right;
+    border: 0.01rem solid #E8E8E8;
+    border-radius: 0.5rem;
+    position: absolute;
+    top:0.49rem;
+    right:0.15rem;
+    line-height: 0.62rem;
+}
+header .right .icon-yemashenglvehao,.icon-icon_xuanzhongyuanxin{
+    font-size: 0.38rem;
+
+}
+header .right span{
+    display: inline-block;
+    margin: 0  0.1rem;
+}
+header .arror{
+    font-size: 0.42rem;
+    color: black;
+    position: absolute;
+    top:0.32rem;
+    left:0.15rem;
+    font-weight: 600;
+}
+section{
+    width: 100%;
+    height: auto;
+    padding: 0.3rem 0.18rem 0 ;
+    box-sizing: border-box;
+    color: #44afff;
+    overflow: hidden;
+    line-height: 0.5rem;
+}
+section .title{
+    float: left;
+    font-size: 0.28rem;
+}
+section .titleDetail{
+    width: 4.85rem;
+    display: inline-block;
+    color: #333333;
+    float: left;
+    font-size: 0.28rem;
+}
+section .titleDetail .price{
+    width: 1.6rem;
+    height: 0.6rem;
+    display: inline-block;
+    background: white;
+    border-radius: 0.05rem;
+    border: 0.01rem solid #cccccc;
+    color: #333333;
+    font-size: 0.28rem;
+    text-align: center;
+}
+.attention{
+    width: 100%;
+    font-size: 0.24rem;
+    color: #999999;
+    padding: 0 0.18rem;
+    box-sizing: border-box;
+    line-height: 0.44rem;
+}
+button{
+    width: 100%;
+    height: 0.9rem;
+    background: linear-gradient(to right,#44b0ff,#44ddff);
+    font-size: 0.32rem;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/*弹出框部分*/
+.popupBox{
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.4);
+    position: absolute;
+    top:0;
+    left:0;
+}
+.popupBox .contain{
+    width: 5.8rem;
+    height: 4.1rem;
+    background: white;
+    border-radius: 0.1rem;
+    position: absolute;
+    top:4.42rem;
+    left: 0.85rem;
+    letter-spacing: 0.02rem;
+}
+.popupBox .contain img{
+    width: 1.32rem;
+    height: 1.18rem;
+    margin: 0.68rem 0 0.4rem 2.22rem;
+}
+.popupBox .contain h3{
+    width: 100%;
+    font-size: 0.36rem;
+    color: #333;
+    text-align: center;
+    line-height: 0.63rem;
+}
+.popupBox .contain h4{
+    width: 100%;
+    font-size: 0.28rem;
+    color: #999999;
+    text-align: center;
+    line-height: 0.63rem;
+}
+.popupBox .icon-quxiao{
+    color: white;
+    font-size: 0.67rem;
+    position: absolute;
+    top:9rem;
+    left: 3.35rem;
+
+}

@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 1.28rem;
+    padding-top: 0.32rem;
+    box-sizing: border-box;
+    /*overflow: hidden;*/
+    font-size: 0.38rem;
+    color: black;
+    text-align: center;
+    line-height: 0.96rem;
+    position: relative;
+    /*margin-bottom: 0.2rem;*/
+    background: white;
+}
+header .right{
+    width: 1.72rem;
+    height: 0.62rem;
+    float: right;
+    border: 0.01rem solid #E8E8E8;
+    border-radius: 0.5rem;
+    position: absolute;
+    top:0.49rem;
+    right:0.15rem;
+    line-height: 0.62rem;
+}
+header .right .icon-more,.icon-center{
+    font-size: 0.38rem;
+
+}
+header .right span{
+    display: inline-block;
+    margin: 0  0.1rem;
+}
+
+.pay{
+    width: 100%;
+    height: 0.8rem;
+    /*background: darkgoldenrod;*/
+}
+.pay1{
+    width: 1.6rem;
+    height: 0.8rem;
+    border-bottom: 0.04rem solid #44afff;
+    box-sizing: border-box;
+    font-size: 0.26rem;
+    color: #44afff;
+    text-align: center;
+    line-height: 0.8rem;
+    float: left;
+    margin-left: 1.1rem;
+}
+.pay2{
+    width: 1.6rem;
+    height: 0.8rem;
+    /*border-bottom: 0.04rem solid #44afff;*/
+    box-sizing: border-box;
+    font-size: 0.26rem;
+    color: #666666;
+    text-align: center;
+    line-height: 0.8rem;
+    float: right;
+    margin-right: 1.1rem;
+}
+
+.date{
+    width: 100%;
+    height: 0.88rem;
+    margin-top: 0.2rem;
+    /*background: cyan;*/
+}
+.dateside{
+    width: 6.95rem;
+    height: 0.88rem;
+    margin-left: 0.24rem;
+    /*background: yellow;*/
+}
+.iconya{
+    width: 0.44rem;
+    height: 100%;
+    float: left;
+}
+.icon-rili{
+    display: block;
+    font-size: 0.33rem;
+    color: #44aeff;
+    text-align: center;
+    line-height: 0.88rem;
+}
+.dateword{
+    font-size: 0.28rem;
+    line-height: 0.88rem;
+    color: black;
+    float: left;
+    margin-left: 0.1rem;
+}
+.dateword span{
+    color: #999999;
+}
+
+.paybottom{
+    width: 100%;
+    height: 8.7rem;
+    margin-top: 0.19rem;
+    /*background-color: red;*/
+}
+.paybotnei{
+    width: 7.04rem;
+    height: 100%;
+    margin-left: 0.18rem;
+    /*background: yellow;*/
+}
+.search{
+    width: 100%;
+    height: 1.27rem;
+    /*background: #ff6700;*/
+    border-bottom: 0.01rem solid #f3f3f3;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.iconsea{
+    width: 6.24rem;
+    height: 0.66rem;
+    margin-top: 0.3rem;
+    /*background: deeppink;*/
+    /*border: 0.01rem solid red;*/
+    box-sizing: border-box;
+    float: left;
+}
+.searchicon{
+    width: 0.58rem;
+    height: 0.66rem;
+    float: left;
+    background: #44aeff;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.iconsea input{
+    width: 5.56rem;
+    height: 100%;
+    outline: none;
+    float: right;
+    border: none;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.search span{
+    float: right;
+    font-size: 0.28rem;
+    color: #666666;
+    margin-top: 0.49rem;
+}
+.table{
+    width: 7.04rem;
+    height: 4.2rem;
+    /*background: sienna;*/
+}
+.table1{
+    width: 100%;
+    height: 0.92rem;
+    /*background: blue;*/
+}
+.table1-1{
+    width: 1.72rem;
+    height: 100%;
+    font-size: 0.29rem;
+    color: #44aeff;
+    text-align: center;
+    line-height: 0.92rem;
+    float: left;
+}
+.table1-2{
+    width: 1.86rem;
+    height: 100%;
+    font-size: 0.29rem;
+    color: #44aeff;
+    text-align: center;
+    line-height: 0.92rem;
+    float: left;
+    margin-left: 0.35rem;
+}
+.table1-3{
+      width: 1.5rem;
+      height: 100%;
+      font-size: 0.29rem;
+      color: #44aeff;
+      text-align: center;
+      line-height: 0.92rem;
+      float: left;
+      margin-left: 0.32rem;
+  }
+.table1-4{
+    width: 1rem;
+    height: 100%;
+    font-size: 0.29rem;
+    color: #44aeff;
+    text-align: center;
+    line-height: 0.92rem;
+    float: left;
+    margin-left: 0.29rem;
+}
+
+.table2{
+    width: 100%;
+    height: 0.62rem;
+    /*background: #ff6700;*/
+    margin-top: 0.18rem;
+}
+.table2:first-child{
+    margin-top: 0;
+}
+.table2-1{
+    width: 1.72rem;
+    height: 100%;
+    font-size: 0.22rem;
+    color: #666666;
+    text-align: center;
+    line-height: 0.62rem;
+    float: left;
+}
+.table2-2{
+    width: 1.86rem;
+    height: 100%;
+    font-size: 0.22rem;
+    color: #666666;
+    text-align: center;
+    line-height: 0.62rem;
+    float: left;
+    margin-left: 0.35rem;
+}
+.table2-3{
+    width: 1.5rem;
+    height: 100%;
+    font-size: 0.22rem;
+    color: #666666;
+    text-align: center;
+    line-height: 0.62rem;
+    float: left;
+    margin-left: 0.32rem;
+}
+.table2-4{
+    width: 0.9rem;
+    height: 0.46rem;
+    border: 0.02rem solid #44aeff;
+    box-sizing: border-box;
+    float: right;
+    margin-right: 0.03rem;
+    border-radius: 0.5rem;
+    margin-top: 0.08rem;
+    font-size: 0.22rem;
+    color: #44aeff;
+    text-align: center;
+    line-height: 0.46rem;
+}
+
+.orderup{
+    width: 100%;
+    height: 1rem;
+    border-top: 0.01rem solid red;
+    box-sizing: border-box;
+    margin-top: 0.29rem;
+}
